@@ -13,10 +13,10 @@ if __name__ == '__main__':
 
 
     # Lancer le dashboard en local
-    #dashboard.run()
+    dashboard.run()
 
 
     #Lancer le dashboard sur un serveur hebergé ( A mettre en commentaire)
-    port = int(os.environ.get('PORT', 5000))
-    app = dashboard.app
-    app.run(host='0.0.0.0', port=port, debug=True)
+    #port = int(os.environ.get('PORT', 5000))
+    #app = dashboard.app
+    #app.run(host='0.0.0.0', port=port, debug=True)
