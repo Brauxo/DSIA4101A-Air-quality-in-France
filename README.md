@@ -50,17 +50,18 @@ Une fois Git installé, ouvrez `Git Bash` ou tout autre terminal et exécutez la
 ## 2 - Lancer l'application
 
 Après avoir suivi les étapes d'installation, vous pouvez démarrer l'application en exécutant le fichier `main.py`. Pour ce faire, ouvrez un terminal et exécutez la commande suivante :
-'''
+```
 *python main.py*
-'''
+```
 
 Si tout se passe comme prévu, arpès quelques instants vous allez obtenir : 
-'''
+
+```
 Dash is running on http://127.0.0.1:8050/
 
  * Serving Flask app 'visualizer.dashboardholder'
  * Debug mode: on
-'''
+```
 
 Cela signifie que l'application est en cours d'exécution en local (localhost) à l'adresse suivante :  
 [http://127.0.0.1:8050/](http://127.0.0.1:8050/)
